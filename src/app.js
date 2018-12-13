@@ -1,9 +1,15 @@
 const express = require('express');
+const cors = require('cors')
+
+//Initializing app;
 const app = express();
-const router = express.Router();
+app.use(express.json())
+app.use(cors());
+
 //Rotas
 const index = require('./routes/index');
-const personRoute = require('./routes/socialProjectRoute');
+const projectRoute = require('./routes/socialProjectRoute');
 app.use('/', index);
-app.use('/projects', personRoute);
+app.use('/projects', projectRoute);
+
 module.exports = app;
