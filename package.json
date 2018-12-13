@@ -1,0 +1,25 @@
+{
+  "name": "SocialProjectAPI",
+  "version": "1.0.0",
+  "description": "Social Project API",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugosteixeira/Social-Project-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugosteixeira/Social-Project-API/issues"
+  },
+  "homepage": "https://github.com/hugosteixeira/Social-Project-API#readme"
+}
